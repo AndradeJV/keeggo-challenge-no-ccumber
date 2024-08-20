@@ -7,6 +7,10 @@ module.exports = defineConfig({
     specPattern: "cypress/tests/**/*.test.js",
     baseUrl: 'https://advantageonlineshopping.com/#',
     viewportWidth: 1920,
-    viewportHeight: 1080
+    viewportHeight: 1080,
+
+    env: {
+      api: 'https://www.advantageonlineshopping.com/'
+    }
   },
 });
